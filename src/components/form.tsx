@@ -33,6 +33,8 @@ export default function Form() {
     }
   }
 
+
+  
   return (
     <form className='flex flex-col w-full' onSubmit={HandleForm} id="form">
       <input type="text" placeholder='Nome' onChange={(e) => { setName(e.target.value) }} className='mb-6 border border-[#FB9494] p-2' />
